@@ -11,6 +11,7 @@
 		189B0B23296DF48C00AEBA35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0B22296DF48C00AEBA35 /* ContentView.swift */; };
 		189B0B25296DF48E00AEBA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189B0B24296DF48E00AEBA35 /* Assets.xcassets */; };
 		189B0B29296DF48E00AEBA35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189B0B28296DF48E00AEBA35 /* Preview Assets.xcassets */; };
+		189B0B30296DF56A00AEBA35 /* CarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B0B2F296DF56A00AEBA35 /* CarInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		189B0B24296DF48E00AEBA35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189B0B26296DF48E00AEBA35 /* OutlineGroupDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OutlineGroupDemo.entitlements; sourceTree = "<group>"; };
 		189B0B28296DF48E00AEBA35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		189B0B2F296DF56A00AEBA35 /* CarInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				189B0B20296DF48C00AEBA35 /* OutlineGroupDemoApp.swift */,
 				189B0B22296DF48C00AEBA35 /* ContentView.swift */,
+				189B0B2F296DF56A00AEBA35 /* CarInfo.swift */,
 				189B0B24296DF48E00AEBA35 /* Assets.xcassets */,
 				189B0B26296DF48E00AEBA35 /* OutlineGroupDemo.entitlements */,
 				189B0B27296DF48E00AEBA35 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189B0B23296DF48C00AEBA35 /* ContentView.swift in Sources */,
+				189B0B30296DF56A00AEBA35 /* CarInfo.swift in Sources */,
 				189B0B21296DF48C00AEBA35 /* OutlineGroupDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

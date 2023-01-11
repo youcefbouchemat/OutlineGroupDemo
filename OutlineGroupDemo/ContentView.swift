@@ -39,10 +39,24 @@ struct ContentView: View {
 
 
     var body: some View {
-        List(carItems,children: \.children) { item in
-            CellView(carItem: item)
+        VStack{
+            List(carItems,children: \.children) { item in
+                CellView(carItem: item)
+            }
+            .listStyle(SidebarListStyle())
+            
+            List {
+                ForEach(carItems) { item in
+                    Section(header: Text(item.name)){
+                        OutlineGroup(item.children ?? [CarInfo](), children: \.children){ child in
+                            CellView(carItem: child)
+                        }
+                    }
+                }
+            }
+            .listStyle(InsetListStyle())
         }
-        .listStyle(SidebarListStyle())
+        
         
     }
 }

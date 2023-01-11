@@ -39,13 +39,11 @@ struct ContentView: View {
 
 
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(carItems,children: \.children) { item in
+            CellView(carItem: item)
         }
-        .padding()
+        .listStyle(SidebarListStyle())
+        
     }
 }
 
